@@ -1,0 +1,67 @@
+@import '../utils/variables';
+
+.product {
+  &__image {
+    border-radius: 32px;
+  }
+  &__link {
+    border-width: 2px;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+  }
+  &__owner {
+    border-radius: 10px;
+  }
+  &__desc {
+    letter-spacing: 0.1rem;
+  }
+  &__title {
+    background-color: $athens-gray;
+    border-radius: 8px;
+    letter-spacing: 2px;
+  }
+  &__wrap {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
+  &__img {
+    min-height: 100%;
+    background-position: 0 69%;
+    background-repeat: no-repeat;
+    background-size: 135%;
+  }
+}
+
+.product-body {
+  @include media-breakpoint-up(md) {
+    & {
+      position: relative;
+    }
+  }
+  &__wrap {
+    @include media-breakpoint-up(md) {
+      & {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        overflow-y: auto;
+        min-height: 80%;
+      }
+    }
+  }
+}
+
+.product-card {
+  &__body {
+    border: 2px solid $mountain-grey;
+    border-radius: 8px;
+    border-top: 0px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+  }
+  &__text {
+    letter-spacing: 0.7px;
+  }
+}

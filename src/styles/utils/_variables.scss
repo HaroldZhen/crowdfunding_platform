@@ -1,0 +1,33 @@
+// Default variable overrides
+$primary: #ffdf65;
+$secondary: #858377;
+$body-color: #636057;
+$black: #636057;
+$dark: #636057;
+$bg-dark: #494846;
+$tooltip-color: $primary;
+$tooltip-bg: $bg-dark;
+
+$accordion-color: #494846;
+$accordion-bg: #fff;
+$accordion-button-active-bg: tint-color($accordion-bg, 90%);
+$accordion-button-active-color: shade-color($accordion-color, 10%);
+
+$mountain-grey: #e8e8db;
+$athens-gray: #f8f9fa;
+$bittersweet: #ff785e;
+$white: #fff;
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer / 4,
+  2: $spacer / 2,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 2,
+  6: $spacer * 2.5,
+  7: $spacer * 3,
+  8: $spacer * 3.5,
+  9: $spacer * 4,
+);

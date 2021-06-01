@@ -1,0 +1,14 @@
+.menu-nav {
+  border-bottom: 1px solid $mountain-grey;
+  &__list {
+    color: $dark;
+    transition: none;
+    &:hover {
+      color: lighten($dark, 15%);
+    }
+    &-active {
+      font-weight: bold;
+      border-bottom: 2px solid $primary;
+    }
+  }
+}

@@ -1,2 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Noto+Sans+TC&display=swap');
 @import './vendors/bootstrap';
-@import './pages/index';
+@import './utils/helpers';
+@import './utils/custome';
+@import './layout/index';
+@import './pages/main';

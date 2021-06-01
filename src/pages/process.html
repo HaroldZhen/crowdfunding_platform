@@ -11,7 +11,7 @@
       <nav class="navbar navbar-expand-lg navbar-light bg-white bg-white border border-3 border-top-0 border-end-0 border-start-0 border-primary">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img width="111p" height="40" src="<%=require('@/images/logo.png')%>" alt="" />
+            <img width="111p" height="40" src="<%=require('@/images/logo.jpeg')%>" alt="" />
           </a>
           <button
             class="navbar-toggler"
@@ -135,82 +135,48 @@
     <section class="menu-nav position-sticky top-0 bg-white" style="z-index: 99">
       <div class="container">
         <nav class="nav">
-          <a class="nav-link p-4 menu-nav__list menu-nav__list-active" aria-current="page" href="./index.html">專案介紹</a>
+          <a class="nav-link p-4 menu-nav__list" aria-current="page" href="./index.html">專案介紹</a>
           <a class="nav-link p-4 menu-nav__list" href="./faq.html">常見問答</a>
-          <a class="nav-link p-4 menu-nav__list" href="./process.html">目前進度</a>
+          <a class="nav-link p-4 menu-nav__list menu-nav__list-active" href="./process.html">目前進度</a>
           <a class="nav-link p-4 menu-nav__list" href="./messages.html">留言</a>
         </nav>
       </div>
     </section>
-    <section class="py-4">
+    <section class="process py-4">
       <div class="container">
-        <div class="row">
-          <div class="product col-12 col-md-8 position-relative">
-            <img class="product__image img-fluid mb-2" src="<%=require('@/images/p1.jpeg')%>" alt="產品照片1" />
-            <h4 class="ps-2 my-3 border-start border-4 border-primary">施了魔法的照片</h4>
-            <div class="text-justify lh-lg">
-              受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女，外成認心香吸工並知日成展源大超時動為生葉衣致長山對精做英密差家他微熱建取示濟定心一，品定把別銀動，深青輪一物加，生明果。西業白老如天有表非民大條全那遊，李文遊、像香過元學須本致信校態麼資司媽人價在它，地他不我計孩廠然不大指勢生的華常簡岸然，人著母病石金萬得一果。
-            </div>
-            <img class="product__image img-fluid my-3" src="<%=require('@/images/p2.jpeg')%>" alt="產品照片1" />
-            <h4 class="ps-2 my-3 border-start border-4 border-primary">留下當下的美好</h4>
-            <div class="text-justify lh-lg my-3">
-              受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女，外成認心香吸工並知日成展源大超時動為生葉衣致長山對精做英密差家他微熱建取示濟定心一，品定把別銀動，深青輪一物加，生明果。西業白老如天有表非民大條全那遊，李文遊、像香過元學須本致信校態麼資司媽人價在它，地他不我計孩廠然不大指勢生的華常簡岸然，人著母病石金萬得一果。
-            </div>
-            <div class="d-md-none my-2 position-sticky bottom-0">
-              <div class="text-center">
-                <button type="button" class="btn btn-primary w-100 btn-lg px-5">贊助專案</button>
+        <div class="row pt-2">
+          <div class="col-12 col-md-8 pb-4">
+            <div class="process_card row g-0 mb-5 border rounded-3">
+              <div class="col-4">
+                <div class="bg-cover bg-center process__image" style="background-image: url(<%=require('@/images/news01.jpeg')%>)"></div>
+              </div>
+              <div class="col-8 p-3">
+                <h6 class="mb-0">高雄體驗會｜免費參加送帆布袋</h6>
+                <p><small class="fw-light">2021-6-20</small></p>
+                <p class="d-none d-md-block">大家安安！謝謝每位贊助者的熱情支持，讓我們離夢想更進一步，我們將於下個月舉辦體驗會，歡迎各位踴躍參與！</p>
+                <a href="#" class="process__link text-bittersweet text-decoration-none fw-bold">MORE</a>
               </div>
             </div>
-            <div class="form d-none d-md-block">
-              <div class="text-center">
-                <img src="<%=require('@/images/icon_heart.svg')%>" alt="" />
+            <div class="process_card row g-0 mb-5 border rounded-3">
+              <div class="col-4">
+                <div class="bg-cover bg-center process__image" style="background-image: url(<%=require('@/images/news02.jpeg')%>)"></div>
               </div>
-              <div class="position-relative my-4">
-                <div class="progress" style="height: 3px">
-                  <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <span class="position-absolute top-0 start-50 translate-middle px-3 bg-white fs-4">贊助專案</span>
+              <div class="col-8 p-3">
+                <h6 class="mb-0">高雄體驗會｜免費參加送帆布袋</h6>
+                <p><small class="fw-light">2021-6-20</small></p>
+                <p class="d-none d-md-block">大家安安！謝謝每位贊助者的熱情支持，讓我們離夢想更進一步，我們將於下個月舉辦體驗會，歡迎各位踴躍參與！</p>
+                <a href="#" class="process__link text-bittersweet text-decoration-none fw-bold">MORE</a>
               </div>
-              <div>
-                <form class="needs-validation" novalidate>
-                  <div class="mb-3">
-                    <label for="product_cases" class="form-label">贊助方案</label>
-                    <select class="form-select bg-light" id="product_cases" aria-label="case" required>
-                      <option value="" selected disabled>請選擇一個方案</option>
-                      <option value="A">方案A: $1,200</option>
-                      <option value="B">方案B: $1,400</option>
-                      <option value="C">方案C: $2,200</option>
-                    </select>
-                    <div class="invalid-feedback">請選擇一個方案</div>
-                  </div>
-                  <div class="mb-3">
-                    <label for="name" class="form-label">收件人姓名</label>
-                    <input type="text" class="form-control bg-light" id="name" placeholder="請輸入收件人姓名" required />
-                    <div class="invalid-feedback">請輸入姓名</div>
-                  </div>
-                  <div class="mb-3">
-                    <label for="tel" class="form-label">聯絡電話</label>
-                    <input type="tel" class="form-control bg-light" id="tel" placeholder="請輸入聯絡電話" required />
-                    <div class="invalid-feedback">請輸入聯絡電話</div>
-                  </div>
-                  <div class="mb-3">
-                    <label for="email" class="form-label">連絡信箱</label>
-                    <input type="email" class="form-control bg-light" id="email" placeholder="123@gmail.com" required />
-                    <div class="invalid-feedback">請輸入正確的郵件格式</div>
-                  </div>
-                  <div class="mb-3">
-                    <label for="payment" class="form-label">付款方式</label>
-                    <select class="form-select bg-light" id="payment" aria-label="payment" required>
-                      <option value="" selected disabled>請選擇付款方式</option>
-                      <option value="A">信用卡付款</option>
-                      <option value="B">匯款</option>
-                    </select>
-                    <div class="invalid-feedback">請輸入付款方式</div>
-                  </div>
-                  <div class="mb-3 text-center">
-                    <button type="submit" class="btn btn-primary btn-lg rounded-pill px-5">贊助專案</button>
-                  </div>
-                </form>
+            </div>
+            <div class="process_card row g-0 mb-5 border rounded-3">
+              <div class="col-4">
+                <div class="bg-cover bg-center process__image" style="background-image: url(<%=require('@/images/news03.jpeg')%>)"></div>
+              </div>
+              <div class="col-8 p-3">
+                <h6 class="mb-0">高雄體驗會｜免費參加送帆布袋</h6>
+                <p><small class="fw-light">2021-6-20</small></p>
+                <p class="d-none d-md-block">大家安安！謝謝每位贊助者的熱情支持，讓我們離夢想更進一步，我們將於下個月舉辦體驗會，歡迎各位踴躍參與！</p>
+                <a href="#" class="process__link text-bittersweet text-decoration-none fw-bold">MORE</a>
               </div>
             </div>
           </div>
@@ -303,7 +269,7 @@
               </div>
             </div>
           </div>
-          <div class="d-block d-md-none col-12 col-md-8">
+          <div class="col-12 col-md-8">
             <div class="form">
               <div class="text-center">
                 <img src="<%=require('@/images/icon_heart.svg')%>" alt="" />
@@ -314,7 +280,7 @@
                 </div>
                 <span class="position-absolute top-0 start-50 translate-middle px-3 bg-white fs-4">贊助專案</span>
               </div>
-              <div>
+              <div class="pb-3">
                 <form class="needs-validation" novalidate>
                   <div class="mb-3">
                     <label for="product_cases" class="form-label">贊助方案</label>
@@ -350,7 +316,7 @@
                     </select>
                     <div class="invalid-feedback">請輸入付款方式</div>
                   </div>
-                  <div class="mb-3 text-center">
+                  <div class="text-center">
                     <button type="submit" class="btn btn-primary btn-lg rounded-pill px-5">贊助專案</button>
                   </div>
                 </form>
@@ -388,7 +354,7 @@
                 <div class="progress-bar bg-light" role="progressbar" style="width: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
               <a href="#" class="link-secondary text-decoration-none position-absolute top-0 start-50 translate-middle px-3 bg-white fs-6"
-                >還沒有帳號？ <span class="link-opposite-bittersweet">註冊一個帳號</span></a
+                >還沒有帳號？ <span class="text-bittersweet">註冊一個帳號</span></a
               >
             </div>
           </div>
