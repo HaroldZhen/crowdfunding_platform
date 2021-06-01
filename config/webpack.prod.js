@@ -10,7 +10,7 @@ module.exports = merge(common, {
   devtool: false,
   output: {
     path: paths.build,
-    publicPath: '/', //上傳後的目錄
+    publicPath: '/crowdfunding_platform/', //上傳後的目錄
     filename: 'js/[name].[contenthash].bundle.js',
   },
   module: {

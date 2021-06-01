@@ -1,10 +1,10 @@
 {
-  "name": "vue3course",
+  "name": "拼拼招募網站",
   "version": "1.0.0",
   "description": "vue3",
   "main": "index.js",
   "author": "harold",
-  "homepage": "https://HaroldZhen.github.io/vue3course",
+  "homepage": "https://haroldzhen.github.io/crowdfunding_platform",
   "license": "MIT",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack serve --config config/webpack.dev.js",
@@ -52,7 +52,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:HaroldZhen/vue3-course.git"
+    "url": "git@github.com:HaroldZhen/crowdfunding_platform.git"
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
