@@ -6,8 +6,6 @@
 ## 簡介
 此為前端切版練習作品
 
-[設計稿線上標示文件](https://hexschool.tw/hk1Ga)
-
 ### 主要練習
 + Bootstrap5
 + SCSS
